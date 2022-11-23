@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_of_the_day/widgets/bottom_nav_bar.dart';
 import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/list_view_builder.dart';
 
@@ -27,14 +28,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(
-        backgroundColor: Colors.grey[200],
-        body: SafeArea(child: GridViewWidget()),
-      ),
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: BottomNavBar());
   }
 }
