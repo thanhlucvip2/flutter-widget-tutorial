@@ -1,8 +1,23 @@
+import 'package:device_preview/device_preview.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/list_view_builder.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyDeviceWg());
+}
+
+class MyDeviceWg extends StatelessWidget {
+  const MyDeviceWg({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return DevicePreview(
+      enabled: !kReleaseMode,
+      builder: (context) => const MyApp(), // Wrap your app
+    );
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -18,7 +33,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         backgroundColor: Colors.grey[200],
-        body: SafeArea(child: ListViewBuilderWidget()),
+        body: SafeArea(child: GridViewWidget()),
       ),
     );
   }
