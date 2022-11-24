@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/grid_view.dart';
 
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({super.key});

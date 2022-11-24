@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_widget_of_the_day/widgets/RowColumn.dart';
-import 'package:flutter_widget_of_the_day/widgets/boxshadow.dart';
-import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
-import 'package:flutter_widget_of_the_day/widgets/list_view_builder.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/RowColumn.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/boxshadow.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/grid_view.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/list_view_builder.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});
