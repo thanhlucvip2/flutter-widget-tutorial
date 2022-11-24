@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -25,6 +27,11 @@ class _AnimatedContainerWidgetState extends State<AnimatedContainerWidget> {
       boxY = boxY == -1 ? 1 : -1;
       boxX = boxX == -1 ? 1 : -1;
     });
+  }
+
+  void setTimeout(void Function() callback, int time) {
+    Duration timeDelay = Duration(milliseconds: time);
+    Timer(timeDelay, callback);
   }
 
   @override

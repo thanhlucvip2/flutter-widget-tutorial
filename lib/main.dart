@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/timer.dart';
 
 void main() {
   runApp(const MyDeviceWg());
@@ -33,6 +34,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             // primarySwatch: Colors.yellow,
             ),
-        home: AlertDialogWidget());
+        home: TimerWidget());
   }
 }
