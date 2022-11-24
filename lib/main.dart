@@ -1,7 +1,9 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_of_the_day/widgets/app_bar.dart';
 import 'package:flutter_widget_of_the_day/widgets/bottom_nav_bar.dart';
+import 'package:flutter_widget_of_the_day/widgets/drawer.dart';
 import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/list_view_builder.dart';
 
@@ -30,9 +32,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
+        useInheritedMediaQuery: true,
         theme: ThemeData(
-          primarySwatch: Colors.yellow,
-        ),
-        home: BottomNavBar());
+            // primarySwatch: Colors.yellow,
+            ),
+        home: DrawerWidget());
   }
 }
