@@ -6,6 +6,7 @@ import 'package:flutter_widget_of_the_day/widgets/bottom_nav_bar.dart';
 import 'package:flutter_widget_of_the_day/widgets/drawer.dart';
 import 'package:flutter_widget_of_the_day/widgets/grid_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/list_view_builder.dart';
+import 'package:flutter_widget_of_the_day/widgets/sliver_appbar.dart';
 
 void main() {
   runApp(const MyDeviceWg());
@@ -36,6 +37,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             // primarySwatch: Colors.yellow,
             ),
-        home: DrawerWidget());
+        home: SliverAppBarWidget());
   }
 }
