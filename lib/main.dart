@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_of_the_day/widgets/header/tab_bar.dart';
+import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
 
 void main() {
   runApp(const MyDeviceWg());
@@ -32,6 +32,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             // primarySwatch: Colors.yellow,
             ),
-        home: TabBarWidget());
+        home: AnimatedContainerWidget());
   }
 }
