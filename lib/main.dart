@@ -2,6 +2,7 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
+import 'package:flutter_widget_of_the_day/widgets/animations/icon_animation.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/input_form.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/stack.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           // primarySwatch: Colors.yellow,
           ),
-      home: InputFormWidget(),
+      home: IconAnimationWidget(),
     );
   }
 }
