@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/tiktok_scroll_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/timer.dart';
 
 void main() {
@@ -28,12 +29,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        useInheritedMediaQuery: true,
-        theme: ThemeData(
-            // primarySwatch: Colors.yellow,
-            ),
-        home: TimerWidget());
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      useInheritedMediaQuery: true,
+      theme: ThemeData(
+          // primarySwatch: Colors.yellow,
+          ),
+      home: TikTokScrollViewWidget(),
+    );
   }
 }
