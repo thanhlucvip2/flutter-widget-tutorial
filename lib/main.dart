@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/icon_animation.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/date_picker.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/input_form.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/simple_slider.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/stack.dart';
@@ -37,9 +38,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       useInheritedMediaQuery: true,
       theme: ThemeData(
+          // brightness: Brightness.dark,
           // primarySwatch: Colors.yellow,
           ),
-      home: SimpleSliderWidget(),
+      home: DatePickerWidget(),
     );
   }
 }
