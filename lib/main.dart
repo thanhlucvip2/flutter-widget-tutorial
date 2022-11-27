@@ -9,6 +9,7 @@ import 'package:flutter_widget_of_the_day/widgets/body/input_form.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/simple_slider.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/stack.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/tiktok_scroll_view.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/time_picker.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/timer.dart';
 
 void main() {
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
           // brightness: Brightness.dark,
           // primarySwatch: Colors.yellow,
           ),
-      home: DatePickerWidget(),
+      home: TimePickerWidget(),
     );
   }
 }
