@@ -4,13 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/animated_container.dart';
 import 'package:flutter_widget_of_the_day/widgets/animations/icon_animation.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
-import 'package:flutter_widget_of_the_day/widgets/body/date_picker.dart';
+import 'package:flutter_widget_of_the_day/widgets/time/date_picker.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/input_form.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/simple_slider.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/stack.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/tiktok_scroll_view.dart';
-import 'package:flutter_widget_of_the_day/widgets/body/time_picker.dart';
-import 'package:flutter_widget_of_the_day/widgets/body/timer.dart';
+import 'package:flutter_widget_of_the_day/widgets/time/time_picker.dart';
+import 'package:flutter_widget_of_the_day/widgets/time/set_timeout.dart';
+import 'package:flutter_widget_of_the_day/widgets/time/time_scroll.dart';
 
 void main() {
   runApp(const MyDeviceWg());
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
           // brightness: Brightness.dark,
           // primarySwatch: Colors.yellow,
           ),
-      home: TimePickerWidget(),
+      home: TimeScrollWidget(),
     );
   }
 }
