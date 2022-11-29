@@ -6,7 +6,7 @@ import 'package:flutter_widget_of_the_day/widgets/animations/icon_animation.dart
 import 'package:flutter_widget_of_the_day/widgets/body/alert_dialog.dart';
 import 'package:flutter_widget_of_the_day/widgets/time/date_picker.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/input_form.dart';
-import 'package:flutter_widget_of_the_day/widgets/body/simple_slider.dart';
+import 'package:flutter_widget_of_the_day/widgets/body/simple_slider_keo_tha_nut_point.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/stack.dart';
 import 'package:flutter_widget_of_the_day/widgets/body/tiktok_scroll_view.dart';
 import 'package:flutter_widget_of_the_day/widgets/time/time_picker.dart';
